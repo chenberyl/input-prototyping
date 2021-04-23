@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+body {
+  background-color: #FFE9F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  font-family: 'Bellefair', serif;
+  font-size:3em;
+}
+
+p {
+  color: #1E3CAF;
+  font-family: 'Bellefair', serif;
+  font-size:3em;
+}
+
+.container{
+  width:30%;
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  padding:20px
+}
+input[type="text"] {
+  margin-top: 1em;
+  box-sizing:border-box;
+  width:100%;
+  font-size:1.2em;
+  padding:10px 10px;
+  border: 1px solid black;
+}
+#text-output{
+  display:block;
+  font-size:10em;
+  color:#1E3CAF;
+  background-color:#FFE9F9;
+}
